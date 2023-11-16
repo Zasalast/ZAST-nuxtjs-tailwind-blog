@@ -6,15 +6,9 @@
       </h2>
 
       <ul class="flex flex-wrap gap-4 items-center">
-        <!-- <li class="flex items-center">
-          <Html class="h-10 w-10 rounded-sm drop-shadow-sm"></Html>
-        </li>
 
         <li class="flex items-center">
-          <Css class="h-10 w-10 rounded-sm drop-shadow-sm"></Css>
-        </li> -->
-        <li class="flex items-center">
-          <!-- <Symfony class="h-10 w-10"></Symfony> -->
+
           <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg">
 
   <image href="../assets/devicon/angular.svg"  height="40" width="40"/>
