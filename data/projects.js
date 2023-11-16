@@ -26,7 +26,7 @@ const projectsData = [
     href: "https://zasalast.github.io/react-intro-curso-platzi/",
     github: "https://github.com/Zasalast/react-intro-curso-platzi",
     tech1: "Reactjs",
-    tech2: "GitHub Pages,
+    tech2: "GitHub Pages",
     tech3: "ReactContext",
   },
   {
@@ -47,8 +47,7 @@ const projectsData = [
     github: "#",
     tech1: "Nuxt.js",
     tech2: "Tailwind CSS",
-    tech3: "TypeScript
-",
+    tech3: "TypeScript",
   },
   {
     title: "Tailwind NuxtJs Blog Starter",
