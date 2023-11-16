@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: "Ing Zanoni Alfredo Salas Tobón | Software Developer",
+  title: "Ing ZASalasTobón | Software Developer",
   author: "Ing Zanoni Alfredo Salas Tobón",
   author_image: "/author.png",
   position: "Full Stack Developer",
