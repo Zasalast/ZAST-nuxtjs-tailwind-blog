@@ -30,17 +30,7 @@ const projectsData = [
     tech3: "ReactContext",
   },
   {
-    title: "Polygon Scanner API",
-    description: `Proyecto avícola usando Lambda, serverless y ReactJS para automatizar procesos y monitoreo.`,
-    imgSrc: "",
-    href: "",
-    github: "https://github.com/Zasalast/seminario",
-    tech1: "Next",
-    tech2: "Lambda con Serverless",
-    tech3: "DynamoDB",
-  },
-  {
-    title: "https://cesca.netlify.com/",
+    title: "Magazine Cesca",
     description: `This Magazine Cesca is buil will tecnologi will a A Nuxt.js & Netlify CMS`,
     imgSrc: "",
     href: "https://cesca.netlify.com/",
