@@ -15,7 +15,7 @@ const siteMetaInfo = {
   siteLogo: "../assets/author.png",
   image: "~/assets/author.png",
   socialBanner: "/static/images/twitter-card.png",
-  email: "zasalastobon@gmail.dev",
+  email: "zasalastobon@gmail.com",
   github: "https://github.com/zasalast",
   githubUser: "zasalast",
   twitter: "https://twitter.com/ZasColectivo",
