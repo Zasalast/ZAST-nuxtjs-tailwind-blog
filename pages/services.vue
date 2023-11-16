@@ -1,25 +1,51 @@
 <template>
-  <div>
-    <h2>Servicios Destacados</h2>
-    <p></p>
+  <div class="max-w-screen-xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6">Servicios Destacados</h2>
 
-    <div v-for="category in uniqueCategories" :key="category">
-      <h3>{{ category }}</h3>
-      <div v-for="service in servicesByCategory(category)" :key="service.id">
-        <media-text
-          :media-position="service.mediaPosition"
-          :media-id="service.mediaId"
-          :media-link="service.mediaLink"
-          :media-type="service.mediaType"
+    <div v-for="service in services" :key="service.id" class="mb-8">
+      <div class="flex flex-wrap mb-4">
+        <span
+          v-for="category in service.category"
+          :key="category"
+          class="mr-2 mb-2 inline-block bg-blue-500 text-white px-2 py-1 rounded-full"
         >
-          <template v-slot:content>
-            <p><strong>{{ service.title }}</strong></p>
-            <p>{{ service.description }}</p>
-            <!-- Mostrar la imagen -->
-            <img :src="service.mediaLink" :alt="service.title" class="service-image" />
-          </template>
-        </media-text>
+          {{ category }}
+        </span>
       </div>
+
+      <media-and-text
+        :media-position="service.mediaPosition || 'default'"
+        :media-id="service.mediaId || 0"
+        :media-link="service.mediaLink || 'https://via.placeholder.com/150'"
+        :media-type="service.mediaType || 'image'"
+        :media-alt="service.title || 'Media Alt Text'"
+      >
+        <template v-slot:content>
+          <div class="flex flex-col-reverse md:flex-row">
+            <div class="md:w-1/2 md:pr-6">
+              <p v-if="service.title" class="text-xl font-bold mb-2">{{ service.title }}</p>
+              <div class="flex flex-wrap mb-4">
+                <span
+                  v-for="tech in service.technologies"
+                  :key="tech"
+                  class="mr-2 mb-2 inline-block bg-green-500 text-white px-2 py-1 rounded-full"
+                >
+                  {{ tech }}
+                </span>
+              </div>
+              <p v-if="service.description" class="mb-4">{{ service.description }}</p>
+              <p v-if="service.content" class="mb-4">{{ service.content }}</p>
+            </div>
+            <!-- Mostrar la imagen solo si hay un enlace -->
+            <img
+              v-if="service.mediaLink"
+              :src="service.mediaLink"
+              :alt="service.title"
+              class="w-full h-auto md:w-1/2 object-cover rounded-lg shadow-lg mb-4 md:mb-0"
+            />
+          </div>
+        </template>
+      </media-and-text>
     </div>
   </div>
 </template>
@@ -30,27 +56,12 @@ import servicesData from '../data/services';
 export default {
   data() {
     return {
-      servicesData: servicesData,
+      services: servicesData,
     };
-  },
-  computed: {
-    uniqueCategories() {
-      const technologies = this.servicesData.reduce((acc, service) => acc.concat(service.technologies), []);
-      return [...new Set(technologies)];
-    },
-  },
-  methods: {
-    servicesByCategory(category) {
-      return this.servicesData.filter(service => service.technologies.includes(category));
-    },
   },
 };
 </script>
 
 <style scoped>
-/* Estilo adicional si es necesario */
-.service-image {
-  max-width: 100%; /* Ajustar el ancho máximo de la imagen */
-  height: auto; /* Permitir que la altura se ajuste proporcionalmente al ancho */
-}
+/* No necesitas estilos adicionales aquí, ya que Tailwind CSS se encargará de eso */
 </style>

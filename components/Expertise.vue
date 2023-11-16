@@ -8,11 +8,9 @@
       <ul class="flex flex-wrap gap-4 items-center">
 
         <li class="flex items-center">
-
           <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg">
-
-  <image href="../assets/devicon/angular.svg"  height="40" width="40"/>
-</svg>
+            <image href="../assets/devicon/angular.svg" height="40" width="40" />
+          </svg>
         </li>
         <li class="flex items-center">
           <Angular class="h-10 w-10"></Angular>
@@ -48,14 +46,14 @@
         <li class="flex items-center">
           <!-- <Symfony class="h-10 w-10"></Symfony> -->
           <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg">
-  <image href="../assets/devicon/nest.svg"  height="40" width="40"/>
-</svg>
+            <image href="../assets/devicon/nest.svg" height="40" width="40" />
+          </svg>
         </li>
         <li class="flex items-center">
           <!-- <Symfony class="h-10 w-10"></Symfony> -->
           <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg">
-  <image href="../assets/devicon/symfony.svg"  height="40" width="45"/>
-</svg>
+            <image href="../assets/devicon/symfony.svg" height="40" width="45" />
+          </svg>
         </li>
         <li class="flex items-center">
           <Next class="h-10 w-10"></Next>
@@ -85,7 +83,7 @@ import Nest from "../assets/devicon/nest.svg?inline";
 import React from "../assets/devicon/react.svg?inline";
 import Symfony from "../assets/devicon/symfony.svg?inline";
 import Node from "../assets/devicon/node.svg?inline";
-import Angular from "../assets/devicon/angular.svg";
+import Angular from "../assets/devicon/angular.svg?inline";
 export default {
   components: {
     Javascript,
