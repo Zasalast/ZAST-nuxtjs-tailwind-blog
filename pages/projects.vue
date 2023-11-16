@@ -6,9 +6,9 @@
       >
         Projects
       </h1>
-      <p class="text-lg leading-7 text-gray-500 dark:text-gray-400">
+    <!--   <p class="text-lg leading-7 text-gray-500 dark:text-gray-400">
         Some of the projects I've build or been a part of.
-      </p>
+      </p> -->
     </div>
     <main class="relative mb-auto">
       <div class="">

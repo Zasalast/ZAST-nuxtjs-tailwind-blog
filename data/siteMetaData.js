@@ -7,7 +7,7 @@ const siteMetadata = {
   headerTitle: "Ing Zasalastobon",
   slogan: "Cada destino comienza con un paso, sin importar lo difícil que sea llegar. Disfruta el proceso, afronta los desafíos uno por uno y aprecia cada etapa del camino hacia el éxito.",
   description:
-    "ZasalasTobon, conocida como ZAST, Nos especializamos en soluciones tecnológicas como Aplicaciones web y móvil. Desarrollador Junior Full Stack con una sólida base técnica y un enfoque especializado en el desarrollo web. Mi competencia se destaca en tecnologías como React.js y Nest.js, y mi experiencia abarca una amplia gama de lenguajes y herramientas, incluyendo HTML, JavaScript, TypeScript, PHP, Python, React Native, Vue.js, Angular, Symfony, Laravel, SQL, MongoDB, JWT y SCSS..",
+    "ZasalasTobon, conocida como ZAST, Nos especializamos en soluciones tecnológicas como Aplicaciones web y móvil. Desarrollador Junior Full Stack con una sólida base técnica y un enfoque especializado en el desarrollo web. Mi competencia se destaca en tecnologías como React.js y Nest.js, y mi experiencia abarca una amplia gama de lenguajes y herramientas, incluyendo HTML, JavaScript, TypeScript, PHP, Python, React Native, Vue.js, Angular, Symfony, Laravel, SQL, MongoDB, JWT y SCSS.",
   language: "en-us",
   theme: "system", // system, dark or light
   siteUrl: "https://zasalastobon.com",
