@@ -1,7 +1,7 @@
 ---
 title: Error en el Despliegue de Netlify Build
 tags: nuxt, deploy, netlify
-date: 2022-11-16
+date: 2023-11-16
 description: El enigma detrás del Error 0308010C durante la construcción de tu aplicación Node.js con Nuxt.js puede ser una experiencia frustrante. Este artículo se adentrará en las posibles causas específicas para proyectos Nuxt.js, teniendo en cuenta la configuración de scripts y dependencias proporcionada.
 image: [Inserta tu enlace de imagen aquí]
 author: Ing ZasalasTobon
