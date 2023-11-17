@@ -4,9 +4,9 @@
       <div class="media-content">
         <slot name="content"></slot>
       </div>
-      <div v-if="mediaType === 'image'" class="media-image-container">
+      <!-- <div v-if="mediaType === 'image'" class="media-image-container">
         <img :src="mediaLink" :alt="mediaAlt" class="media-image" />
-      </div>
+      </div> -->
       <!-- Otros tipos de medios (si es necesario) -->
 
       <!-- Contenido -->
