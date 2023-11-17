@@ -13,7 +13,7 @@
 
           </svg>
         </li> -->
-        <li class="flex items-center">
+        <!--    <li class="flex items-center">
           <Angular class="h-10 w-10"></Angular>
         </li>
         <li class="flex items-center">
@@ -24,7 +24,7 @@
         </li>
         <li class="flex items-center">
           <Javascript class="h-10 w-10"></Javascript>
-        </li>
+        </li> -->
         <li class="flex items-center">
           <Vuejs class="h-10 w-10"></Vuejs>
         </li>
@@ -43,14 +43,14 @@
           <Laravel class="h-10 w-10"></Laravel>
         </li>
 
-        <li class="flex items-center">
-          <!-- <Symfony class="h-10 w-10"></Symfony> -->
-          <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg">
+        <!--     <li class="flex items-center"> -->
+        <!-- <Symfony class="h-10 w-10"></Symfony> -->
+        <!--     <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg">
             <image href="../assets/devicon/nest.svg" height="40" width="40" />
           </svg>
-        </li>
-        <li class="flex items-center">
-          <!-- <Symfony class="h-10 w-10"></Symfony> -->
+        </li> -->
+        <!-- <li class="flex items-center">
+         
           <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg">
 
             <image href="../assets/devicon/symfony.svg" height="40" width="45" />
@@ -65,43 +65,33 @@
         </li>
         <li class="flex items-center">
           <Node class="h-10 w-10"></Node>
-        </li>
+        </li> -->
       </ul>
     </div>
   </div>
 </template>
 
 <script>
-import Javascript from "../assets/devicon/javascript.svg?inline";
-import Html from "../assets/devicon/html.svg?inline";
-import Css from "../assets/devicon/css.svg?inline";
+
 import Vuejs from "../assets/devicon/vuejs.svg?inline";
 import TailwindCss from "../assets/devicon/tailwindcss.svg?inline";
 import Nuxt from "../assets/devicon/nuxt.svg?inline";
 import Bootstrap from "../assets/devicon/bootstrap.svg?inline";
 import Laravel from "../assets/devicon/laravel.svg?inline";
-import Next from "../assets/devicon/next.svg?inline";
-import Nest from "../assets/devicon/nest.svg?inline";
+
 import React from "../assets/devicon/react.svg?inline";
-import Symfony from "../assets/devicon/symfony.svg?inline";
+
 import Node from "../assets/devicon/node.svg?inline";
-import Angular from "../assets/devicon/angular.svg?inline";
+
 export default {
   components: {
-    Javascript,
-    Html,
-    Css,
     Bootstrap,
     Vuejs,
     TailwindCss,
     Nuxt,
     Laravel,
     Node,
-    Symfony,
-    Next,
-    Nest,
     React,
-    Angular,
   },
 };
 </script>
