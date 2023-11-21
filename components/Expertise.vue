@@ -17,8 +17,8 @@
           <!-- <Symfony class="h-10 w-10"></Symfony> -->
           <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg">
 
-  <image href="../assets/devicon/angular.svg"  height="40" width="40"/>
-</svg>
+            <image href="../assets/devicon/angular.svg" height="40" width="40" />
+          </svg>
         </li>
         <li class="flex items-center">
           <Angular class="h-10 w-10"></Angular>
@@ -54,14 +54,14 @@
         <li class="flex items-center">
           <!-- <Symfony class="h-10 w-10"></Symfony> -->
           <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg">
-  <image href="../assets/devicon/nest.svg"  height="40" width="40"/>
-</svg>
+            <image href="../assets/devicon/nest.svg" height="40" width="40" />
+          </svg>
         </li>
         <li class="flex items-center">
           <!-- <Symfony class="h-10 w-10"></Symfony> -->
           <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg">
-  <image href="../assets/devicon/symfony.svg"  height="40" width="45"/>
-</svg>
+            <image href="../assets/devicon/symfony.svg" height="40" width="45" />
+          </svg>
         </li>
         <li class="flex items-center">
           <Next class="h-10 w-10"></Next>
